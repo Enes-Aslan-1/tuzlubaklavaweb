@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Enes Aslan">
+  <link rel="icon" href="https://i.hizliresim.com/vTjjTG.jpg">
+  
+  {% if title %}
+  <title>Tuzlu Baklava - {{title}}</title>
+  {% else %}
+  <title>Tuzlu Baklava'ya Hoşgeldiniz!</title>
+  {% endif %}
+
+  <!-- Bootstrap core CSS -->
+  <link href="{{  url_for('static', filename='bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{  url_for('static', filename='style.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+  <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css'>
+  <link href="{{  url_for('static', filename='webfonts/fa-brands-400.woff2')}}" rel="stylesheet">
+  <link href="{{  url_for('static', filename='webfonts/fa-solid-900.woff2')}}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{{  url_for('static', filename='one-page-wonder.min.css')}}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('index') }}"></a>
+        <img src='{{ url_for ('static', filename='img/TuzBaklava.jpg')}}' alt="TuzluBaklava" class="rounded" style="width:40px;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://discord.com/api/oauth2/authorize?client_id=770241810827575307&permissions=8&scope=bot">Davet Et</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('index') }}">Ana Sayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('commands') }}">Komutlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://discord.gg/PUQTWw3ZGt">Destek Sunucusu</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  {% block content %}
+  {% endblock %}
+
+
+  <!-- Footer -->
+  <body>
+    <div class="footer-dark">
+        <footer>
+        <div class="container">
+            <div class="row">
+            <br/><br/>
+            <div class="col-md-12">         
+                <a href="http://scripteden.com/download/eden-ui/" target="_blank" class="btn-social btn-github"><i class="fa fa-github-alt"></i></a>
+                <a href="http://scripteden.com/download/eden-ui/" target="_blank" class="btn-social btn-instagram"><i class="fa fa-instagram"></i></a>
+                <a href="http://scripteden.com/download/eden-ui/" target="_blank" class="btn-social btn-reddit"><i class="fa fa-reddit"></i></a>
+                <a href="http://scripteden.com/download/eden-ui/" target="_blank" class="btn-social btn-twitter"><i class="fa fa-twitter"></i></a>
+                <p class="text-center">Copyright &copy; TuzluBaklava</p>
+            </div>
+        </div>
+        </footer>
+    </div>
+    </body>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{  url_for('static', filename='jquery.min.js')}}"></script>
+    <script src="{{  url_for('static', filename='bootstrap.bundle.min.js')}}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<iframe src='https://my.spline.design/untitled-cb943206b175ebd7fc509eb1011daf14/' frameborder='0' width='1920px;' height='490;' size = "100"></iframe>
+    
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src='{{ url_for ('static', filename='img/01.jpg')}}' alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Kolay Kullanım</h2>
+            <p>Uzun ve karmaşık komutların aksine Tuzlu Baklava gayet sade komutlar içerir ve bunu yaparken sizi verdiği hizmetden alıkoymaz.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src='{{ url_for ('static', filename='img/02.jpg')}}' alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Özgün İçerik</h2>
+            <p>Diğer botlarda olmayan komutlar ve özgün içerikler botun içerisinde bulunmakta.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src='{{ url_for ('static', filename='img/03.jpg')}}' alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Tamamıyla Ücretsiz</h2>
+            <p>Premium ve benzeri gibi saçmalıkları unutun! Tuzlu Baklava tüm hizmetlerini ücretsiz sunmaktadır. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% endblock %}

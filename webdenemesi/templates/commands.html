@@ -1,0 +1,768 @@
+{% extends 'base.html' %}
+{% block content %}
+
+  <iframe src='https://my.spline.design/untitled-d7b829723ebada9a75583a96f7113e4d/' frameborder='0' width='1920px;' height='490;' size = "100"></iframe>
+    <div class="masthead-content">
+      <div class="container">
+      </div>
+    </div>
+
+
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+          <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapseFour"
+                      aria-expanded="false" aria-controls="collapseFour">
+                      insta
+                  </button>
+              </h2>
+          </div> 
+          <div id="collapseFour" class="collapse show" aria-labelledby="headingOne" data- parent="#accordionExample">
+              <div class="card-body">
+                Girilen etiketteki kullanıcı hakkında bilgi verir.                                            
+                Kullanım → tb!insta &lt;İnstagram Kullanıcı Etiketi&gt;
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapseFive"
+                      aria-expanded="false" aria-controls="collapseFive">
+                      subhot
+                  </button>
+              </h2>
+          </div>
+          <div id="collapseFive" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                  Girilen reddit subredditindeki hot 5 postu gönderir.
+                  Kullanım → tb!subhot &lt;Subreddit İsmi&gt;
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapseSix"
+                      aria-expanded="false" aria-controls="collapseSix">
+                      subinfo
+                  </button>
+              </h2>
+          </div>
+          <div id="collapseSix" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Girilen reddit subreddit hakkında bilgi gönderir.
+                Kullanım → tb!subinfo &lt;Subreddit İsmi&gt;
+              </div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading4">
+            <h2 class="mb-0">
+                <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse6"
+                    aria-expanded="false" aria-controls="collapse6">
+                    reddituser
+                </button>
+            </h2>
+        </div>
+        <div id="collapse6" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+            <div class="card-body">
+              Girilen reddit kullanıcısı hakkında bilgi gönderir.
+              Kullanım → tb!reddituser&lt;Reddit Kullanıcı İsmi&gt;
+            </div>
+        </div>
+    </div>
+    <div class="card">
+          <div class="card-header" id="heading5">
+              <h2 class="mb-0">
+                  <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse7"
+                      aria-expanded="false" aria-controls="collapse7">
+                      korona
+                  </button>
+              </h2>
+          </div>
+          <div id="collapse7" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+              <div class="card-body">
+                Girilen ülkenin koronavirüs verilerini gösterir.
+                Kullanım → tb!korona &lt;Ülke Kodu&gt;
+              </div>
+          </div>
+      </div>
+      <div class="card">
+        <div class="card-header" id="heading6">
+            <h2 class="mb-0">
+                <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse8"
+                    aria-expanded="false" aria-controls="collapse8">
+                    deprem
+                </button>
+            </h2>
+        </div>
+        <div id="collapse8" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+            <div class="card-body">
+              Türkiye'deki son 5 depremi gönderir. (Kaynak = Kandilli Rasathanesi)
+              Kullanım → tb!deprem
+            </div>
+        </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="heading7">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse9"
+                  aria-expanded="false" aria-controls="collapse9">
+                  haber
+              </button>
+          </h2>
+      </div>
+      <div id="collapse9" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+          <div class="card-body">
+            Son 5 haberi gönderir. (Kaynak = Anadolu Ajansı)
+            Kullanım → tb!haber
+          </div>
+      </div>
+  </div>
+  <div class="card">
+        <div class="card-header" id="heading8">
+            <h2 class="mb-0">
+                <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse0"
+                    aria-expanded="false" aria-controls="collapse0">
+                    deprem
+                </button>
+            </h2>
+        </div>
+        <div id="collapse0" class="collapse" aria-labelledby="heading8 data-parent="#accordionExample">
+            <div class="card-body">
+              Türkiye'deki son 5 depremi gönderir. (Kaynak = Kandilli Rasathanesi)
+              Kullanım → tb!deprem
+            </div>
+        </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="heading9">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse10"
+                  aria-expanded="false" aria-controls="collapse0">
+                  hdurumu
+              </button>
+          </h2>
+      </div>
+      <div id="collapse10" class="collapse" aria-labelledby="heading9 data-parent="#accordionExample">
+          <div class="card-body">
+            Girilen şehirdeki hava durumunu gösterir.(Kaynak = Google)
+            Kullanım → tb!hdurumu &lt;Şehir İsmi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading10">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse11"
+                  aria-expanded="false" aria-controls="collapse0">
+                  hd5günlük
+              </button>
+          </h2>
+      </div>
+      <div id="collapse11" class="collapse" aria-labelledby="heading10 data-parent="#accordionExample">
+          <div class="card-body">
+            5 günlük hava durumunu gönderir.Eğer çalışmazsa türkçe harfler kullanmadan yazınız. (Mahalleleri desteklemez.) (Kaynak = MGM)
+            Kullanım → tb!hd5günlük &lt;Yer İsmi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading11">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse12"
+                  aria-expanded="false" aria-controls="collapse0">
+                  hdsondurum
+              </button>
+          </h2>
+      </div>
+      <div id="collapse12" class="collapse" aria-labelledby="heading11 data-parent="#accordionExample">
+          <div class="card-body">
+            Son hava durumunu gönderir. Eğer çalışmazsa türkçe harfler kullanmadan yazınız. (İlçe ve mahalleleri desteklemez.) (Kaynak = MGM)
+            Kullanım → tb!hdsondurum &lt;Yer İsmi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading12">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse13"
+                  aria-expanded="false" aria-controls="collapse0">
+                  wiki
+              </button>
+          </h2>
+      </div>
+      <div id="collapse13" class="collapse" aria-labelledby="heading12 data-parent="#accordionExample">
+          <div class="card-body">
+            Wikipediada aratılan terimin tanımı gönderir.
+            Kullanım → tb!wiki &lt;Aratılacak Terim&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading13">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse14"
+                  aria-expanded="false" aria-controls="collapse0">
+                  çeviri
+              </button>
+          </h2>
+      </div>
+      <div id="collapse14" class="collapse" aria-labelledby="heading13 data-parent="#accordionExample">
+          <div class="card-body">
+            Çevirilecek yazıyı girilen dile çevirir.
+            Kullanım → tb!çeviri &lt;Dil Kodu&gt; &lt;Çevirilecek Yazı&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading14">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse15"
+                  aria-expanded="false" aria-controls="collapse0">
+                  userinfo , ui , memberinfo ya da mi
+              </button>
+          </h2>
+      </div>
+      <div id="collapse15" class="collapse" aria-labelledby="heading14 data-parent="#accordionExample">
+          <div class="card-body">
+            Kullanıcı hakkında bilgi verir.
+            Kullanım → tb!userinfo , tb!ui , tb!memberinfo ya da tb!mi &lt;Kullanıcı Etiketi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading15">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse16"
+                  aria-expanded="false" aria-controls="collapse0">
+                  serverinfo ya da si
+              </button>
+          </h2>
+      </div>
+      <div id="collapse16" class="collapse" aria-labelledby="heading15 data-parent="#accordionExample">
+          <div class="card-body">
+            Sunucu hakkında bilgi verir.
+            Kullanım → tb!serverinfo ya da tb!si
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading16">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse17"
+                  aria-expanded="false" aria-controls="collapse0">
+                  zar
+              </button>
+          </h2>
+      </div>
+      <div id="collapse17" class="collapse" aria-labelledby="heading16 data-parent="#accordionExample">
+          <div class="card-body">
+            Zar atar.
+            Kullanım → tb!zar
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading17">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse18"
+                  aria-expanded="false" aria-controls="collapse0">
+                  aşk
+              </button>
+          </h2>
+      </div>
+      <div id="collapse18" class="collapse" aria-labelledby="heading17 data-parent="#accordionExample">
+          <div class="card-body">
+            Etiketlenen iki kişi arasındaki aşkı ölçer.
+            Kullanım → tb!aşk &lt;Birinci Kişi&gt; &lt;İkinci Kişi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading18">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse19"
+                  aria-expanded="false" aria-controls="collapse0">
+                  tkm
+              </button>
+          </h2>
+      </div>
+      <div id="collapse19" class="collapse" aria-labelledby="heading18 data-parent="#accordionExample">
+          <div class="card-body">
+            Taş kağıt makas oynar.
+            Kullanım → tb!tkm &lt;Hamle&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading19">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse20"
+                  aria-expanded="false" aria-controls="collapse0">
+                  meme
+              </button>
+          </h2>
+      </div>
+      <div id="collapse20" class="collapse" aria-labelledby="heading19 data-parent="#accordionExample">
+          <div class="card-body">
+            Rastgele meme yollar.
+            Kullanım → tb!meme
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading20">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse21"
+                  aria-expanded="false" aria-controls="collapse0">
+                  yazıtura
+              </button>
+          </h2>
+      </div>
+      <div id="collapse21" class="collapse" aria-labelledby="heading20 data-parent="#accordionExample">
+          <div class="card-body">
+            Yazı tura atar.
+            Kullanım → tb!yazıtura
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading21">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse22"
+                  aria-expanded="false" aria-controls="collapse0">
+                  tekrarla
+              </button>
+          </h2>
+      </div>
+      <div id="collapse22" class="collapse" aria-labelledby="heading21 data-parent="#accordionExample">
+          <div class="card-body">
+            Mesajı tekrarlar.
+            Kullanım → tb!tekrarla &lt;Tekrarlanacak Mesaj&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading22">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse23"
+                  aria-expanded="false" aria-controls="collapse0">
+                  cesaret
+              </button>
+          </h2>
+      </div>
+      <div id="collapse23" class="collapse" aria-labelledby="heading22 data-parent="#accordionExample">
+          <div class="card-body">
+            Cesaret sorusu gönderir.
+            Kullanım → tb!cesaret
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading23">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse24"
+                  aria-expanded="false" aria-controls="collapse0">
+                  doğruluk
+              </button>
+          </h2>
+      </div>
+      <div id="collapse24" class="collapse" aria-labelledby="heading23 data-parent="#accordionExample">
+          <div class="card-body">
+            Doğruluk sorusu gönderir.
+            Kullanım → tb!doğruluk
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading24">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse25"
+                  aria-expanded="false" aria-controls="collapse0">
+                  dolar
+              </button>
+          </h2>
+      </div>
+      <div id="collapse25" class="collapse" aria-labelledby="heading24 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel dolar verisi gönderir.
+            Kullanım → tb!dolar
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading25">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse26"
+                  aria-expanded="false" aria-controls="collapse0">
+                  euro
+              </button>
+          </h2>
+      </div>
+      <div id="collapse26" class="collapse" aria-labelledby="heading25 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel euro verisi gönderir.
+            Kullanım → tb!euro
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading26">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse27"
+                  aria-expanded="false" aria-controls="collapse0">
+                  sterlin
+              </button>
+          </h2>
+      </div>
+      <div id="collapse27" class="collapse" aria-labelledby="heading26 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel sterlin verisi gönderir.
+            Kullanım → tb!sterlin
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading27">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse28"
+                  aria-expanded="false" aria-controls="collapse0">
+                  frank
+              </button>
+          </h2>
+      </div>
+      <div id="collapse28" class="collapse" aria-labelledby="heading27 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel frank verisi gönderir.
+            Kullanım → tb!frank
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading28">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse29"
+                  aria-expanded="false" aria-controls="collapse0">
+                  bitcoin
+              </button>
+          </h2>
+      </div>
+      <div id="collapse29" class="collapse" aria-labelledby="heading28 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel bitcoin verisi gönderir.
+            Kullanım → tb!bitcoin
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading29">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse30"
+                  aria-expanded="false" aria-controls="collapse0">
+                  gr altın
+              </button>
+          </h2>
+      </div>
+      <div id="collapse30" class="collapse" aria-labelledby="heading29 data-parent="#accordionExample">
+          <div class="card-body">
+            Güncel gram altın verisi gönderir.
+            Kullanım → tb!gr altın
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading30">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse31"
+                  aria-expanded="false" aria-controls="collapse0">
+                  davet
+              </button>
+          </h2>
+      </div>
+      <div id="collapse31" class="collapse" aria-labelledby="heading30 data-parent="#accordionExample">
+          <div class="card-body">
+            Bot davet linkini gönderir.
+            Kullanım → tb!davet
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading31">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse32"
+                  aria-expanded="false" aria-controls="collapse0">
+                  ping
+              </button>
+          </h2>
+      </div>
+      <div id="collapse32" class="collapse" aria-labelledby="heading31 data-parent="#accordionExample">
+          <div class="card-body">
+            Botun ping değerini gönderir.
+            Kullanım → tb!ping
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading32">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse33"
+                  aria-expanded="false" aria-controls="collapse0">
+                  ban
+              </button>
+          </h2>
+      </div>
+      <div id="collapse33" class="collapse" aria-labelledby="heading32 data-parent="#accordionExample">
+          <div class="card-body">
+            Etiketlenen kullanıcı banlar.(Bu komut için yetkiye ihtiyacınız vardır.)
+            Kullanım → tb!ban &lt;Kullanıcı Etiketi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading33">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse34"
+                  aria-expanded="false" aria-controls="collapse0">
+                  unban
+              </button>
+          </h2>
+      </div>
+      <div id="collapse34" class="collapse" aria-labelledby="heading33 data-parent="#accordionExample">
+          <div class="card-body">
+            Etiketlenen kullanıcının banını kaldırır.(Bu komut için yetkiye ihtiyacınız vardır.)
+            Kullanım → tb!unban &lt;Kullanıcı Etiketi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading34">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse35"
+                  aria-expanded="false" aria-controls="collapse0">
+                  kick
+              </button>
+          </h2>
+      </div>
+      <div id="collapse35" class="collapse" aria-labelledby="heading34 data-parent="#accordionExample">
+          <div class="card-body">
+            Etiketlenen kullanıcı kickler.(Bu komut için yetkiye ihtiyacınız vardır.)
+            Kullanım → tb!kick &lt;Kullanıcı Etiketi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading35">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse36"
+                  aria-expanded="false" aria-controls="collapse0">
+                  play
+              </button>
+          </h2>
+      </div>
+      <div id="collapse36" class="collapse" aria-labelledby="heading35 data-parent="#accordionExample">
+          <div class="card-body">
+            Girilen şarkıyı çalar.Eğer oynatıcıda mevcut bir şarkı varsa oynatma listesine ekler.
+            Kullanım → tb!play &lt;url/şarkı ismi&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading36">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse37"
+                  aria-expanded="false" aria-controls="collapse0">
+                  skip
+              </button>
+          </h2>
+      </div>
+      <div id="collapse37" class="collapse" aria-labelledby="heading36 data-parent="#accordionExample">
+          <div class="card-body">
+            Mevcut şarkıyı atlar.
+            Kullanım → tb!skip
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading37">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse38"
+                  aria-expanded="false" aria-controls="collapse0">
+                  pause
+              </button>
+          </h2>
+      </div>
+      <div id="collapse38" class="collapse" aria-labelledby="heading37 data-parent="#accordionExample">
+          <div class="card-body">
+            Mevcut şarkıyı durdurur.
+            Kullanım → tb!pause
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading38">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse39"
+                  aria-expanded="false" aria-controls="collapse0">
+                  resume
+              </button>
+          </h2>
+      </div>
+      <div id="collapse39" class="collapse" aria-labelledby="heading38 data-parent="#accordionExample">
+          <div class="card-body">
+            Durdurulan şarkıyı devam ettirir.
+            Kullanım → tb!resume
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading39">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse40"
+                  aria-expanded="false" aria-controls="collapse0">
+                  queue veya playlist
+              </button>
+          </h2>
+      </div>
+      <div id="collapse40" class="collapse" aria-labelledby="heading39 data-parent="#accordionExample">
+          <div class="card-body">
+            Mevcut şarkı kuyruğunu gösterir.
+            Kullanım → tb!queue veya tb!playlist
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading40">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse41"
+                  aria-expanded="false" aria-controls="collapse0">
+                  stop
+              </button>
+          </h2>
+      </div>
+      <div id="collapse41" class="collapse" aria-labelledby="heading40 data-parent="#accordionExample">
+          <div class="card-body">
+            Mevcut şarkı oynatımı durur ve şarkı kuyruğu temizlenir. DÖNGÜYE ALINMIŞ ŞARKILARDA İŞE YARAMAZ.
+            Kullanım → tb!stop
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading41">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse42"
+                  aria-expanded="false" aria-controls="collapse0">
+                  leave veya disconnect
+              </button>
+          </h2>
+      </div>
+      <div id="collapse42" class="collapse" aria-labelledby="heading41 data-parent="#accordionExample">
+          <div class="card-body">
+            Bot sesli kanaldan ayrılır.
+            Kullanım → tb!leave veya tb!disconnect
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading42">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse43"
+                  aria-expanded="false" aria-controls="collapse0">
+                  volume, vol veya v
+              </button>
+          </h2>
+      </div>
+      <div id="collapse43" class="collapse" aria-labelledby="heading42 data-parent="#accordionExample">
+          <div class="card-body">
+            Botun sesini ayarlar.
+            Kullanım → tb!volume &lt;Ses Yüksekliği&gt;, tb!vol &lt;Ses Yüksekliği&gt; veya tb!v &lt;Ses Yüksekliği&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading43">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse44"
+                  aria-expanded="false" aria-controls="collapse0">
+                  shuffle
+              </button>
+          </h2>
+      </div>
+      <div id="collapse44" class="collapse" aria-labelledby="heading43 data-parent="#accordionExample">
+          <div class="card-body">
+            Şarkı kuyruğundaki şarkıları karıştırır.
+            Kullanım → tb!shuffle
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading44">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse45"
+                  aria-expanded="false" aria-controls="collapse0">
+                  remove
+              </button>
+          </h2>
+      </div>
+      <div id="collapse45" class="collapse" aria-labelledby="heading44 data-parent="#accordionExample">
+          <div class="card-body">
+            Girilen sıradaki şarkı kaldırılır.
+            Kullanım → tb!remove &lt;Şarkı Sırası&gt;
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading45">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse46"
+                  aria-expanded="false" aria-controls="collapse0">
+                  join
+              </button>
+          </h2>
+      </div>
+      <div id="collapse46" class="collapse" aria-labelledby="heading45 data-parent="#accordionExample">
+          <div class="card-body">
+            Bot girdiğiniz sesli kanalına gelir.
+            Kullanım → tb!join
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading46">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse47"
+                  aria-expanded="false" aria-controls="collapse0">
+                  loop
+              </button>
+          </h2>
+      </div>
+      <div id="collapse47" class="collapse" aria-labelledby="heading46 data-parent="#accordionExample">
+          <div class="card-body">
+            Mevcut şarkıyı dögüye alır.DÖNGÜYÜ İPTAL ETMEK İÇİN TEKRAR LOOP KOMUTUNU KULLANIN.
+            Kullanım → tb!loop
+          </div>
+      </div>
+  </div>
+  <div class="card">
+      <div class="card-header" id="heading47">
+          <h2 class="mb-0">
+              <button class="btn btn-outline-dark btn-block" type="button" data-toggle="collapse" data-target="#collapse48"
+                  aria-expanded="false" aria-controls="collapse0">
+                  search
+              </button>
+          </h2>
+      </div>
+      <div id="collapse48" class="collapse" aria-labelledby="heading47 data-parent="#accordionExample">
+          <div class="card-body">
+            Girilen kelimeyi YouTube'de aratır
+            Kullanım → tb!search &lt;Şarkı İsmi&gt;
+          </div>
+      </div>
+  </div>
+
+  </div>
+    
+  
+  {% endblock %}
