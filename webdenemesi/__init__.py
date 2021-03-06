@@ -4,4 +4,4 @@ from flask import Flask
 app = Flask(__name__)
 
 
-from webdennemesi import routes
+from webdenemesi import routes

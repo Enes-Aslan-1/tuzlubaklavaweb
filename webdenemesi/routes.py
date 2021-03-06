@@ -1,4 +1,4 @@
-from webdennemesi import app
+from webdenemesi import app
 from flask import render_template
 
 @app.route('/')
