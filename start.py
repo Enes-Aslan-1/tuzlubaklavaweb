@@ -1,4 +1,4 @@
-from webdennemesi import app
+from webdenemesi import app
 
 if __name__ == "__main__":
     app.run(debug=True)
