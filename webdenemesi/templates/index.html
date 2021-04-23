@@ -1,7 +1,27 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<iframe src='https://my.spline.design/untitled-cb943206b175ebd7fc509eb1011daf14/' frameborder='0' width='1920px;' height='490;' size = "100"></iframe>
+<header>
+  <!-- Background image -->
+  <div
+    class="p-5 text-start bg-image"
+    style="
+      background-image: '{{ url_for ('static', filename='img/04.png')}}';
+      height: 720px;
+    "
+  >
+      
+  <!-- Jumbotron -->
+  <div class="p-5 text-start">
+    <h1 class="font-weight-bold display-1 text-white">TuzluBaklava</h1>
+    <h3 class="display-5 text-danger">T Ü R K Ç E   &nbsp;&nbsp;  D İ S C O R D  &nbsp;&nbsp;  B O T U</h3>
+    <h3>	&nbsp; </h3>
+    <h4 class="font-weight-normal text-white">TuzluBaklava özgün komutları ve yenilikçi yapısıyla <br> sunucunuzu diğerlerinden farklı kılıyor.</h4>
+    <h3>	&nbsp; </h3>
+    <a class="btn btn-info" href="https://discord.com/api/oauth2/authorize?client_id=770241810827575307&permissions=8&scope=bot" role="button">Botu Davet Et</a>
+  </div>
+  <!-- Jumbotron -->
+</header>
     
 
   <section>
